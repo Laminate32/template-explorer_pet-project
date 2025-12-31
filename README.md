@@ -1,1 +1,2 @@
-# template-explorer_pet-project
+# My second pet-project
+# By Nalyvaiko Matvii

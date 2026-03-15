@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template Explorer</title>
-    <link rel="icon" type="" href="">
+    <link rel="icon" type="" href="assets/logo.png">
     <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
 
     <!-- Bootstrap -->
@@ -20,6 +20,13 @@
   <body>
     <main class="main">
 
+
+        <section
+            class="nav-section"
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="partials/index.nav.partial.html"
+        ></section>
 
         <section
             class="hero-section"

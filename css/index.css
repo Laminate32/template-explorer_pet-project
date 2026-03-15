@@ -1,0 +1,17 @@
+@import url('global.css');
+@import url('components.css');
+
+@import url('index.nav.partial.css');
+@import url('index.header-hero.partial.css');
+@import url('index.created-for-your-calm.partial.css');
+@import url('index.summary.partial.css');
+@import url('index.cta.partial.css');
+@import url('index.how-it-works.partial.css');
+@import url('index.your-wellness-advantages.partial.css');
+@import url('index.cta2.partial.css');
+@import url('index.daily-health-dashboard.partial.css');
+@import url('index.pricing-plans.partial.css');
+@import url('index.reviews-about-aurem.partial.css');
+@import url('index.cta2.partial.css');
+@import url('index.contacts.partial.css');
+@import url('index.footer.partial.css');

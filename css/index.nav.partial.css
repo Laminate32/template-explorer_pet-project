@@ -1,12 +1,13 @@
 .index__nav-menu{
     width: 100%;
-    height: 15vh;
+    height: 16.5vh;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .index__nav-menu-container{
     display: flex;
     justify-content: space-evenly;
-    gap: 3.5rem;
+    gap: 4rem;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -19,7 +20,7 @@
 
 .index__nav-menu-elements{
     display: flex;
-    gap: 3rem;
+    gap: 1.9rem;
     margin: 0;
     padding: 0;
     white-space: nowrap;
@@ -30,9 +31,9 @@
     color: var(--text-color-dark-accent);
 }
 
-.index__nav-menu-elements li{
+.index__nav-menu-elements{
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 503;
     font-size: 0.9rem;
 }
 
@@ -48,7 +49,8 @@
     margin: 0 3rem;
     display: flex;
     align-items: center;
-    width: 4.4rem;
+    width: 4.3rem;
+    flex-shrink: 0;
 }
 
 .index__nav-menu-elements a:hover{

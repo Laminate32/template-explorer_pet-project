@@ -1,0 +1,8 @@
+.index__cover{
+    width: 100%;
+    height: 50vh;
+}
+
+.index__cover-aurem-app, .index__cover-phone, .index__cover-stress-wellness-suggest{
+    border: 2px solid black;
+}

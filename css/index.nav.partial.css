@@ -1,13 +1,13 @@
 .index__nav-menu{
     width: 100%;
     height: 16.5vh;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .index__nav-menu-container{
     display: flex;
     justify-content: space-evenly;
-    gap: 4rem;
+    gap: 4.2rem;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -20,7 +20,7 @@
 
 .index__nav-menu-elements{
     display: flex;
-    gap: 1.9rem;
+    gap: 2rem;
     margin: 0;
     padding: 0;
     white-space: nowrap;
@@ -33,8 +33,8 @@
 
 .index__nav-menu-elements{
     list-style-type: none;
-    font-weight: 503;
-    font-size: 0.9rem;
+    font-weight: bold;
+    font-size: 0.88rem;
 }
 
 .index__nav-menu-list:first-child {
